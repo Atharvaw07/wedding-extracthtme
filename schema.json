@@ -1,0 +1,330 @@
+{
+  "templateId": "bloomingtheme",
+  "templateName": "Blooming Rose",
+  "sections": [
+    {
+      "id": "general",
+      "label": "Global",
+      "icon": "settings",
+      "guideImage": "/form-guides/bloomingtheme/general.svg",
+      "guideCaption": "Falling petals appear across the whole page after the envelope entry.",
+      "type": "flat",
+      "fields": [
+        {
+          "key": "petalsEnabled",
+          "label": "Falling petals animation",
+          "type": "toggle",
+          "description": "Soft rose & gold petals after guests enter the site."
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "label": "Background music",
+      "icon": "music",
+      "guideImage": "/form-guides/bloomingtheme/audio.svg",
+      "guideCaption": "The floating music control guests use after opening the envelope.",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show music control",
+          "type": "toggle"
+        },
+        {
+          "key": "src",
+          "label": "Background song",
+          "type": "audio-upload",
+          "uploadFolder": "audio"
+        }
+      ]
+    },
+    {
+      "id": "entry",
+      "label": "Envelope Entry",
+      "icon": "mail",
+      "guideImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/bloomberg%20ss/entry.png",
+      "guideCaption": "Full-screen envelope guests tap to open before the invitation.",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show entry gate",
+          "type": "toggle"
+        },
+        {
+          "key": "envelopeImage",
+          "label": "Envelope Front Image",
+          "type": "entry-envelope-image",
+          "description": "Pick a design from the showcase previews. The full envelope artwork (not the thumbnail) is saved to your site."
+        },
+        {
+          "key": "initials",
+          "label": "Seal Initials",
+          "type": "group",
+          "fields": [
+            { "key": "left", "label": "Left Initial", "type": "text", "placeholder": "M" },
+            { "key": "right", "label": "Right Initial", "type": "text", "placeholder": "A" }
+          ]
+        },
+        {
+          "key": "message",
+          "label": "Welcome Message",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "id": "hero",
+      "label": "Hero Section",
+      "icon": "heart",
+      "guideImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/bloomberg%20ss/hero.png",
+      "guideCaption": "Top of the invite: symbol, blessings, and bride & groom lines.",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show hero section",
+          "type": "toggle"
+        },
+        {
+          "key": "ganeshImageUrl",
+          "label": "Religious symbol",
+          "type": "religious-symbol",
+          "description": "Choose a symbol for the top of your invitation. PNG with transparent background works best (displayed at 80×80px)."
+        },
+        {
+          "key": "blessingsIntro",
+          "label": "Introduction text",
+          "type": "textarea"
+        },
+        {
+          "key": "bride",
+          "label": "Bride Details",
+          "type": "group",
+          "fields": [
+            { "key": "name", "label": "Name", "type": "text" },
+            { "key": "familyLine", "label": "Family Line", "type": "text" }
+          ]
+        },
+        {
+          "key": "groom",
+          "label": "Groom Details",
+          "type": "group",
+          "fields": [
+            { "key": "name", "label": "Name", "type": "text" },
+            { "key": "familyLine", "label": "Family Line", "type": "text" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "saveTheDate",
+      "label": "Save the Date (Scratch)",
+      "icon": "calendar",
+      "guideImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/bloomberg%20ss/savethedate.png",
+      "guideCaption": "Scratch hearts and countdown for your wedding date.",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show scratch section",
+          "type": "toggle"
+        },
+        {
+          "key": "weddingDate",
+          "label": "Wedding Date",
+          "type": "date"
+        },
+        {
+          "key": "wording",
+          "label": "Instructions",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "id": "story",
+      "label": "Our Story (Polaroids)",
+      "icon": "camera",
+      "guideImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/bloomberg%20ss/lovestory.png",
+      "guideCaption": "Polaroid cards with photos and captions in the middle of the scroll.",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show story section",
+          "type": "toggle"
+        },
+        {
+          "key": "heading",
+          "label": "Section Heading",
+          "type": "text"
+        },
+        {
+          "key": "subheading",
+          "label": "Section Subheading",
+          "type": "text"
+        },
+        {
+          "key": "items",
+          "label": "Story Cards",
+          "type": "subarray",
+          "itemLabel": "Memory",
+          "summaryKey": "caption",
+          "defaultItem": {
+            "image": "",
+            "caption": "Memory Title",
+            "text": "The story behind it..."
+          },
+          "fields": [
+            { "key": "image", "label": "Photo", "type": "image-upload", "uploadFolder": "story" },
+            { "key": "caption", "label": "Title", "type": "text" },
+            { "key": "text", "label": "Description", "type": "textarea" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "events",
+      "label": "Events",
+      "icon": "map-pin",
+      "guideImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/bloomberg%20ss/event.png",
+      "guideCaption": "Stack of ceremony cards with backgrounds and dress codes.",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show events section",
+          "type": "toggle"
+        },
+        {
+          "key": "heading",
+          "label": "Section Heading",
+          "type": "text"
+        },
+        {
+          "key": "subheading",
+          "label": "Section Subheading",
+          "type": "text"
+        },
+        {
+          "key": "items",
+          "label": "Ceremony Details",
+          "type": "subarray",
+          "itemLabel": "Event",
+          "summaryKey": "title",
+          "defaultItem": {
+            "eventType": "",
+            "title": "New Event",
+            "date": "",
+            "time": "",
+            "description": "",
+            "venue": "",
+            "mapsUrl": "",
+            "image": "",
+            "inviteStyle": "light",
+            "dressCode": { "enabled": false, "label": "", "colors": [], "names": "" },
+            "highlighted": false
+          },
+          "fields": [
+            {
+              "key": "eventType",
+              "label": "Event Type",
+              "type": "select",
+              "hidden": true,
+              "description": "Set by the event background picker below."
+            },
+            {
+              "key": "image",
+              "label": "Event Type & Background",
+              "type": "event-bg",
+              "dependsOn": "eventType",
+              "description": "Pick the ceremony category, then choose a background image or video. The selected URL is saved to this event card."
+            },
+            {
+              "key": "inviteStyle",
+              "label": "Text Contrast Style",
+              "type": "select",
+              "default": "light",
+              "options": [
+                { "value": "light", "label": "Light (Dark Text)" },
+                { "value": "dark", "label": "Dark (White Text)" },
+                { "value": "sunset", "label": "Sunset (Warm/Gold)" },
+                { "value": "arch", "label": "Arch (Classic Maroon)" }
+              ]
+            },
+            { "key": "title", "label": "Event Title", "type": "text" },
+            { "key": "date", "label": "Date", "type": "date" },
+            { "key": "time", "label": "Time", "type": "text" },
+            { "key": "description", "label": "Description", "type": "textarea" },
+            { "key": "venue", "label": "Venue Name", "type": "text" },
+            { "key": "mapsUrl", "label": "Google Maps Link", "type": "url" },
+            {
+              "key": "dressCode",
+              "label": "Dress Code",
+              "type": "group",
+              "fields": [
+                { "key": "enabled", "label": "Show Dress Code", "type": "toggle" },
+                { "key": "label", "label": "Style (e.g. Cocktail formal)", "type": "text" },
+                { "key": "names", "label": "Color Names (e.g. Rose · Gold)", "type": "text" },
+                { "key": "colors", "label": "Hex Colors", "type": "list", "itemType": "color" }
+              ]
+            },
+            { "key": "highlighted", "label": "Highlight this event", "type": "toggle" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rsvp",
+      "label": "RSVP",
+      "icon": "mail",
+      "guideImage": "/form-guides/bloomingtheme/rsvp.svg",
+      "guideCaption": "RSVP block and modal guests use to confirm attendance.",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show RSVP section",
+          "type": "toggle"
+        },
+        {
+          "key": "wording",
+          "label": "Intro message",
+          "type": "textarea"
+        }
+      ]
+    },
+    {
+      "id": "footer",
+      "label": "Footer",
+      "icon": "align-justify",
+      "guideImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/bloomberg%20ss/footer.png",
+      "guideCaption": "Closing message and couple sign-off at the bottom.",
+      "type": "object",
+      "fields": [
+        {
+          "key": "enabled",
+          "label": "Show footer",
+          "type": "toggle"
+        },
+        {
+          "key": "message",
+          "label": "Closing Message",
+          "type": "textarea"
+        },
+        {
+          "key": "regards",
+          "label": "Warm Regards from",
+          "type": "text"
+        },
+        {
+          "key": "couple",
+          "label": "Couple Names",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

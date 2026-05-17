@@ -1,0 +1,170 @@
+{
+  "petalsEnabled": true,
+  "audio": {
+    "enabled": false,
+    "src": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/April/Kriti%20%26%20Manmeet/ReelAudio-14254.mp3"
+  },
+  "entry": {
+    "enabled": true,
+    "envelopeImage": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/Demo/Best%20Website%20Invite%20Demo%20(3).png",
+    "initials": {
+      "left": "R",
+      "right": "R"
+    },
+    "message": "With love and blessings,\nwe invite you to the wedding of:\nMeenal & Avinash"
+  },
+  "hero": {
+    "enabled": true,
+    "ganeshImageUrl": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/Hemadri%20%26%20Ravindra/GAnesha%20Icon.png",
+    "blessingsIntro": "With love and blessings,\nAnjana & Santosh Sahu and Family\ncordially invite you to the wedding celebration of",
+    "bride": {
+      "name": "Meenal",
+      "familyLine": "Daughter of Mr. Santosh Sahu & Mrs. Anjana Sahu"
+    },
+    "groom": {
+      "name": "Avinash",
+      "familyLine": "Son of The Groom's Family"
+    }
+  },
+  "saveTheDate": {
+    "enabled": true,
+    "weddingDate": "2026-05-29",
+    "wording": "Scratch below to reveal our wedding date"
+  },
+  "story": {
+    "enabled": false,
+    "heading": "Forever Us",
+    "subheading": "Our Story",
+    "items": [
+      {
+        "image": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/Meenal%20%26%20Avinash%201st%20july/WhatsApp%20Image%202026-05-10%20at%2012.06.13%20AM%20(1).jpeg",
+        "caption": "Memories together",
+        "text": "From Scotland to London, building a lifetime of beautiful moments."
+      },
+      {
+        "image": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/Meenal%20%26%20Avinash%201st%20july/WhatsApp%20Image%202026-05-10%20at%2012.06.13%20AM%20(2).jpeg",
+        "caption": "Joy and laughter",
+        "text": "Every day with you is a celebration of love, laughter, and togetherness."
+      },
+      {
+        "image": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/Meenal%20%26%20Avinash%201st%20july/WhatsApp%20Image%202026-05-10%20at%2012.06.13%20AM.jpeg",
+        "caption": "Our beautiful forever",
+        "text": "Surrounded by blessings and love, our beautiful forever begins."
+      },
+      {
+        "image": "https://pub-1953a6673e864f3488c645252f75de98.r2.dev/may/Meenal%20%26%20Avinash%201st%20july/WhatsApp%20Image%202026-05-10%20at%2012.06.55%20AM.jpeg",
+        "caption": "Written in the stars",
+        "text": "Two souls, one incredible journey. Written in the stars, forever in our hearts."
+      }
+    ]
+  },
+  "events": {
+    "enabled": true,
+    "heading": "Festivities",
+    "subheading": "The Celebrations Unfold",
+    "items": [
+      {
+        "eventType": "baraat",
+        "title": "Barat Welcome",
+        "date": "2026-05-28",
+        "time": "3:00 PM",
+        "description": "",
+        "venue": "Hotel Tip Top International · Wakad, Pune",
+        "mapsUrl": "",
+        "image": "",
+        "inviteStyle": "dark",
+        "dressCode": {
+          "enabled": false,
+          "label": "",
+          "colors": [],
+          "names": ""
+        },
+        "highlighted": false
+      },
+      {
+        "eventType": "haldi",
+        "title": "Haldi",
+        "date": "2026-05-28",
+        "time": "4:00 PM",
+        "description": "Light refreshments",
+        "venue": "Hotel Tip Top International · Wakad, Pune",
+        "mapsUrl": "",
+        "image": "",
+        "inviteStyle": "light",
+        "dressCode": {
+          "enabled": false,
+          "label": "",
+          "colors": [],
+          "names": ""
+        },
+        "highlighted": false
+      },
+      {
+        "eventType": "sangeet",
+        "title": "Sangeet Evening & Ras Dandiya",
+        "date": "2026-05-28",
+        "time": "7:00 PM",
+        "description": "Preeti Bhoj (Dinner)",
+        "venue": "Hotel Tip Top International · Wakad, Pune",
+        "mapsUrl": "",
+        "image": "",
+        "inviteStyle": "arch",
+        "dressCode": {
+          "enabled": false,
+          "label": "",
+          "colors": [],
+          "names": ""
+        },
+        "highlighted": false
+      },
+      {
+        "eventType": "wedding",
+        "title": "Wedding Ceremony",
+        "date": "2026-05-29",
+        "time": "10:00 AM",
+        "description": "Pheras (Sacred Vows)",
+        "venue": "Hotel Tip Top International · Wakad, Pune",
+        "mapsUrl": "",
+        "image": "",
+        "inviteStyle": "dark",
+        "dressCode": {
+          "enabled": false,
+          "label": "",
+          "colors": [],
+          "names": ""
+        },
+        "highlighted": false
+      },
+      {
+        "eventType": "reception",
+        "title": "Wedding Reception",
+        "date": "2026-05-29",
+        "time": "12:30 PM",
+        "description": "Lunch",
+        "venue": "Hotel Tip Top International · Wakad, Pune",
+        "mapsUrl": "",
+        "image": "",
+        "inviteStyle": "dark",
+        "dressCode": {
+          "enabled": false,
+          "label": "",
+          "colors": [],
+          "names": ""
+        },
+        "highlighted": true
+      }
+    ]
+  },
+  "rsvp": {
+    "enabled": true,
+    "clientId": "extracthtme-wedding-1779002087622",
+    "wording": "Kindly let us know if you can make it — your presence will make this celebration whole."
+  },
+  "footer": {
+    "enabled": true,
+    "message": "Your presence will turn this real-life romance into a blockbuster we'll never forget.\n\nCome, dance, laugh, and celebrate with us in true Bollywood style!",
+    "regards": "Santosh Sahu & Anjana Sahu",
+    "couple": "Meenal & Avinash"
+  },
+  "clientId": "extracthtme-wedding-1779002087622"
+}
